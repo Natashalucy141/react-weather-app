@@ -19,7 +19,10 @@ export default function Weather() {
       </ul>
 
       <div className="row">
-        <div className="col-6">⛅️ 14 ℃</div>
+        <div className="col-6">
+          <img src="https://ssl.gstatic.com/onebox/weather/48/partly_cloudy.png"></img>
+          14 ℃
+        </div>
 
         <div className="col.6">
           <ul>
