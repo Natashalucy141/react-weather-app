@@ -20,13 +20,16 @@ export default function Weather() {
 
       <div className="row">
         <div className="col-6">
-          <img src="https://ssl.gstatic.com/onebox/weather/48/partly_cloudy.png"></img>
+          <img
+            src="https://ssl.gstatic.com/onebox/weather/48/partly_cloudy.png"
+            alt="partly cloudy emoji"
+          ></img>
           14 ℃
         </div>
 
         <div className="col.6">
           <ul>
-            <li>Change of rain 10 %</li>
+            <li>Feels like 15℃</li>
             <li>Humidity: 72%</li>
             <li>Wind: 16 km/h</li>
           </ul>

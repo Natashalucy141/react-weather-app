@@ -1,4 +1,10 @@
 .Weather {
   color: black;
   border: 1px solid grey;
+  max-width: 600px;
+  padding: 20px;
+}
+.Weather form {
+  margin-bottom: 20px;
+  margin-top: 10px;
 }
