@@ -10,7 +10,7 @@ export default function Weather() {
           placeholder="Enter a city"
           className="Search-Bar"
         ></input>
-        <input type="submit" Value="Go"></input>
+        <input className="searchButton" type="submit" Value="🔍"></input>
       </form>
       <h1>LONDON</h1>
       <ul>
@@ -24,15 +24,18 @@ export default function Weather() {
             src="https://ssl.gstatic.com/onebox/weather/48/partly_cloudy.png"
             alt="partly cloudy emoji"
           ></img>
-          14 ℃
+          <span className="currentTemp">14</span>{" "}
+          <span className="unit">℃</span>
         </div>
 
         <div className="col.6">
-          <ul>
-            <li>Feels like 15℃</li>
-            <li>Humidity: 72%</li>
-            <li>Wind: 16 km/h</li>
-          </ul>
+          <div className="whiteBox">
+            <ul>
+              <li>Feels like 15℃</li>
+              <li>Humidity: 72%</li>
+              <li>Wind: 16 km/h</li>
+            </ul>
+          </div>
         </div>
       </div>
     </div>
