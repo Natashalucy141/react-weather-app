@@ -28,7 +28,7 @@ export default function WeatherIcon(props) {
       icon={codeMapping[props.code]}
       color="orange"
       size={64}
-      animate={true}
+      animate={false}
     />
   );
 }
