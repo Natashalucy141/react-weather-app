@@ -53,3 +53,11 @@ ul {
 li {
   list-style: none;
 }
+
+.unit {
+  color: white;
+  font-size: 20px;
+  font-weight: 400;
+  position: relative;
+  top: -35px;
+}
