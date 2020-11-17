@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import axios from "axios";
-import "./Forecast";
+import "./Forecast.css";
 import WeatherIcon from "./WeatherIcon";
 
 export default function Forecast(props) {
@@ -12,7 +12,7 @@ export default function Forecast(props) {
     setLoaded(true);
   }
 
-  if (loaded) {
+  if (loaded && props.city === forecast.city.name) {
     return (
       <div className="WeatherForecast row">
         <div className="col">
